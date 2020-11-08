@@ -30,6 +30,8 @@
         {
             this.SSBFollowUp = new System.Windows.Forms.Label();
             this.LoginPanel = new System.Windows.Forms.Panel();
+            this.btnforgotpassword = new System.Windows.Forms.Button();
+            this.ckbshowpassword = new System.Windows.Forms.CheckBox();
             this.btnsubmit1 = new System.Windows.Forms.Button();
             this.lbltype = new System.Windows.Forms.Label();
             this.cmbtype = new System.Windows.Forms.ComboBox();
@@ -37,8 +39,6 @@
             this.txtusername1 = new System.Windows.Forms.TextBox();
             this.lblpassword = new System.Windows.Forms.Label();
             this.lblusername1 = new System.Windows.Forms.Label();
-            this.ckbshowpassword = new System.Windows.Forms.CheckBox();
-            this.btnforgotpassword = new System.Windows.Forms.Button();
             this.LoginPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,6 +71,28 @@
             this.LoginPanel.Size = new System.Drawing.Size(410, 267);
             this.LoginPanel.TabIndex = 1;
             // 
+            // btnforgotpassword
+            // 
+            this.btnforgotpassword.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnforgotpassword.Location = new System.Drawing.Point(235, 187);
+            this.btnforgotpassword.Name = "btnforgotpassword";
+            this.btnforgotpassword.Padding = new System.Windows.Forms.Padding(5);
+            this.btnforgotpassword.Size = new System.Drawing.Size(131, 33);
+            this.btnforgotpassword.TabIndex = 8;
+            this.btnforgotpassword.Text = "Forgot password";
+            this.btnforgotpassword.UseVisualStyleBackColor = false;
+            this.btnforgotpassword.Click += new System.EventHandler(this.btnforgotpassword_Click);
+            // 
+            // ckbshowpassword
+            // 
+            this.ckbshowpassword.AutoSize = true;
+            this.ckbshowpassword.Location = new System.Drawing.Point(173, 111);
+            this.ckbshowpassword.Name = "ckbshowpassword";
+            this.ckbshowpassword.Size = new System.Drawing.Size(108, 19);
+            this.ckbshowpassword.TabIndex = 7;
+            this.ckbshowpassword.Text = "Show password";
+            this.ckbshowpassword.UseVisualStyleBackColor = true;
+            // 
             // btnsubmit1
             // 
             this.btnsubmit1.BackColor = System.Drawing.SystemColors.ScrollBar;
@@ -81,6 +103,7 @@
             this.btnsubmit1.TabIndex = 6;
             this.btnsubmit1.Text = "Submit";
             this.btnsubmit1.UseVisualStyleBackColor = false;
+            this.btnsubmit1.Click += new System.EventHandler(this.btnsubmit1_Click);
             // 
             // lbltype
             // 
@@ -139,27 +162,6 @@
             this.lblusername1.Size = new System.Drawing.Size(70, 25);
             this.lblusername1.TabIndex = 0;
             this.lblusername1.Text = "Username";
-            // 
-            // ckbshowpassword
-            // 
-            this.ckbshowpassword.AutoSize = true;
-            this.ckbshowpassword.Location = new System.Drawing.Point(173, 111);
-            this.ckbshowpassword.Name = "ckbshowpassword";
-            this.ckbshowpassword.Size = new System.Drawing.Size(108, 19);
-            this.ckbshowpassword.TabIndex = 7;
-            this.ckbshowpassword.Text = "Show password";
-            this.ckbshowpassword.UseVisualStyleBackColor = true;
-            // 
-            // btnforgotpassword
-            // 
-            this.btnforgotpassword.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnforgotpassword.Location = new System.Drawing.Point(235, 187);
-            this.btnforgotpassword.Name = "btnforgotpassword";
-            this.btnforgotpassword.Padding = new System.Windows.Forms.Padding(5);
-            this.btnforgotpassword.Size = new System.Drawing.Size(131, 33);
-            this.btnforgotpassword.TabIndex = 8;
-            this.btnforgotpassword.Text = "Forgot password";
-            this.btnforgotpassword.UseVisualStyleBackColor = false;
             // 
             // Login
             // 
